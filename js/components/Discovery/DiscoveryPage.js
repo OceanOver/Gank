@@ -109,6 +109,7 @@ class DiscoveryPage extends Component {
 				rowID={rowID}
 				highlightRow={highlightRow}
 				clickRowCb={this.rowDidClicked.bind(this)}
+				showImage={false}
 			/>
 		)
 	}

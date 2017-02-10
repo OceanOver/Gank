@@ -191,6 +191,7 @@ class HomePage extends Component {
 				rowID={rowID}
 				highlightRow={highlightRow}
 				clickRowCb={this.rowDidClicked.bind(this)}
+				showImage={true}
 			/>
 		)
 	}
